@@ -1,0 +1,125 @@
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2.5;
+    color: #4a5565;
+}
+
+#header {
+    width: 100%;
+    background-color: #aefc97;
+    color: #84ad4e;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#header p{
+    margin: 0;
+}
+
+h2 {
+    width: 100%;
+    color: #364153;
+    background-color: #e5e7eb;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+#description {
+    display: flex;
+}
+
+#description-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+#description-img {
+    width: 50%;
+    padding: 10px;
+
+}
+
+#about {
+    width: 50%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#about p {
+    margin-top: 0;
+    line-height: 2;
+}
+
+#steps li {
+    list-style-type: lower-roman;
+}
+
+#benefits li {
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.nutrients-table-header th {
+    border: 2px solid #262626;
+    background-color: #f0f8ff;
+    padding: 8px;
+}
+
+.nutrients-table-data td {
+    border: 2px solid #262626;
+    padding: 8px;
+}
+
+#nutrients-table tr:nth-child(odd) {
+    background-color: #f8f8ff;
+}
+#footer{
+    text-align: center;
+    background-color: antiquewhite;
+}
+#footer p{
+    margin: 0;
+}
+
+@media screen and (max-width:756px) {
+    body {
+        font-size: 14px;
+        line: height 1.5;
+    }
+
+    #header{
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+
+    #description {
+        display: inline;
+    }
+
+    #about {
+        width: 90%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #description-img{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    table{
+        margin:20px;
+        line-height:1.8;
+    }
+}
